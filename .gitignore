@@ -1,0 +1,22 @@
+# 🔒 Don't upload source code or build files
+Alive.py
+Alive.spec
+icon.ico
+
+# 🔥 Ignore everything in dist except Wakey.exe
+dist/*
+!dist/Wakey.exe
+
+# 🧼 Build temp folder
+build/
+
+# 🧠 Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# 📝 Editor backup/log files
+*.log
+*.tmp
+*~
+
